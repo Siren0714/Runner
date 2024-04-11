@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+#canvas{
+    background-image: linear-gradient(to bottom,rgb(137, 124, 255), rgb(42, 41, 107));
+    border: 1px solid rgb(51, 255, 0);
+}
+
+/* Модальное окно */
+#myModal{
+    display: none; /* Чтобы не отображалось вначале */
+    position: fixed; /* Стоит на месте */
+    z-index: 1; /* На слой вперёд */
+    left: 0; 
+    top: 0; /* Расположение */
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Можно прокручивать, если потребуется */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Содержимое модального окна */
+.modal-content{
+    background-color: rgb(175, 255, 255);
+    border: 1px solid;
+    margin: 250px auto;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 30px;
+}
